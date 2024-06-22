@@ -1,5 +1,5 @@
 {
-  "name": "my-react-folder",
+  "name": "my-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,8 +15,7 @@
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^11.1.4"
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

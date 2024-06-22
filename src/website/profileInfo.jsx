@@ -14,8 +14,8 @@ function profileInfo() {
                     <p style={{ marginTop: '4px', marginLeft: '4px', marginBottom : '4px'}}>talib 3ilm lpiciyat</p></div>
                     <img style={{ marginTop: '4px', marginLeft: '4px'}} src="/images/icons8-c++-50 (2).png" className="icons-language"></img>
                     <img src="/images/icons8-c++-50 (1).png"  className="icons-language"></img>
-                    <img src="/images/icons8-html-5-50 (1).png"  className="icons-language"></img>
-                    <img src="/images/icons8-CSS-5-50.png"  className="icons-language" style={{ width: '30px'}}></img>
+                    {/* <img src="/images/icons8-html-5-50 (1).png"  className="icons-language"></img> */}
+                    {/* <img src="/images/icons8-CSS-5-50.png"  className="icons-language" style={{ width: '30px'}}></img> */}
                     <img src="/images/icons8-javascript-50 (1).png"  className="icons-language"></img>
                     <img src="/images/icons8-html-5-50 (2).png"  className="icons-language"></img>
                     <img src="/images/icons8-html-5-50 (3).png"  className="icons-language"></img>

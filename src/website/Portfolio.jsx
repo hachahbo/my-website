@@ -10,29 +10,28 @@ import RendringProjects from "./rendring_Project.jsx";
 import ProfileInfo from "./profileInfo.jsx";
 import InfofAboutProject from "./information.jsx";
 import AllProfile from "./Profile.jsx";
+import CardInfo from "./Card";
 import './data/projects'
 function Portfolio() {
 
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    };
-    const [ShowHome, setSHowHome] = useState(true)
+    const [ShowHome, setSHowHome] = useState('1')
+    // const [ShowHomeResume, setSHowHomeResume] = useState("")
     const [project, setProject] = useState("")
 
     const handleButtonClick = (name) =>
     {
         setProject(name)
-        console.log("->>>>>>>>", name);
-        setSHowHome(false);
+        setSHowHome('3');
+    }
+    const handleButtonClickResume = (name) =>
+    {
+        setProject(name)
+        setSHowHome('2');
     }
     const handleButtonClick_true = () =>
     {
-        setSHowHome(true);
+        setSHowHome('1');
     }
 
 
@@ -52,19 +51,29 @@ function Portfolio() {
                         <div className="light-grid-column"></div>
                     </div>
                 </div>
-                {ShowHome &&
+                {ShowHome == '1' &&
                     <div id="home" className="main">
-                        
                             <AllProfile/>
-                            <RendringProjects projects={projects} handleButtonClick={handleButtonClick} />
-                            
+                            <RendringProjects projects={projects} handleButtonClickResume={handleButtonClickResume}
+                                      handleButtonClick={handleButtonClick} />
                     </div>
                 }
-                {!ShowHome &&
-                <div className="main with-back">
+                {ShowHome == '2' &&
+                    <div id="home" className="main">
+                        <div className="center-resume">
+                            <CardInfo project={project}/>
+                            <div className="Button-Choice">
+                                <div  className="trace lineDown" id="clickButton"> <h4 class=" btn" onClick={() => handleButtonClick(project)}>MORE</h4></div>
+                                <div className="trace  lineDown"> <h4 class="btn" onClick={handleButtonClick_true}>BACK</h4></div>
+                             </div>
+                        </div>
+                    </div>
+                }
+                {ShowHome == '3' &&
+                    <div className="main with-back">
                         <InfofAboutProject project={project}/>
                         <div className="back-button  lineDown"> <h4 class="back-button-1 btn" onClick={handleButtonClick_true}>BACK</h4></div>
-                </div>
+                    </div>
                 }
         </>)}
   

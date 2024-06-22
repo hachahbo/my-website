@@ -130,12 +130,11 @@ function IceptionProject() {
                             <p>
                             <h2 style={{marginTop: '0px'}}>Checkout more resources </h2>
                                 <ul>
-                                    <li> <a style={{color: 'white'}} href="https://www.one-tab.com/page/z4g_bNlpQNyUhg6Azcbz_Q">Inception Docker SSL... </a></li>
-                                    <li> <a style={{color: 'white'}} href="https://github.com/hachahbo/Inception_42">Inception_42 from my Github</a></li>
-                                    <li> <a style={{color: 'white'}} href="https://tuto.grademe.fr/inception/">Inception tutorial</a></li>
-                                    <li> <a style={{color: 'white'}} href="https://www.youtube.com/watch?v=PrusdhS2lmo">Docker and Kubernetes</a></li>
-                                    <li> <a style={{color: 'white'}} href="https://www.youtube.com/watch?v=-YnMr1lj4Z8&t=22s">How Docker Works - Namespaces
-</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://www.one-tab.com/page/z4g_bNlpQNyUhg6Azcbz_Q">Inception Docker SSL... </a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://github.com/hachahbo/Inception_42">Inception_42 from my Github</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://tuto.grademe.fr/inception/">Inception tutorial</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://www.youtube.com/watch?v=PrusdhS2lmo">Docker and Kubernetes</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://www.youtube.com/watch?v=-YnMr1lj4Z8&t=22s">How Docker Works - Namespaces</a></li>
                                 </ul>
                             </p> 
                             </div>

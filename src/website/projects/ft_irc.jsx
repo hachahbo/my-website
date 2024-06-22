@@ -176,11 +176,11 @@ function FT_irc() {
                             <p>
                             <h2 style={{marginTop: '0px'}}>Checkout more resources </h2>
                                 <ul>
-                                    <li> <a style={{color: 'white'}} href="https://www.rfc-editor.org/rfc/rfc2812">Internet Relay Chat: Client Protocol</a></li>
-                                    <li> <a style={{color: 'white'}} href="https://modern.ircdocs.horse/">Modern IRC Client Protocol</a></li>
-                                    <li> <a style={{color: 'white'}} href="https://medium.com/@afatir.ahmedfatir/small-irc-server-ft-irc-42-network-7cee848de6f9#:~:text=Part%203%3A%20Use%20the%20poll()%20function%20to%20check%20if%20an%20event%20has%20occurred.">Small IRC Server [ft_irc 42 network]</a></li>
-                                    <li> <a style={{color: 'white'}} href="https://www.geeksforgeeks.org/socket-programming-cc/">Socket Programming in C/C++</a></li>
-                                    <li> <a style={{color: 'white'}} href="https://www.geeksforgeeks.org/socket-in-computer-network/">Socket in Computer Network</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://www.rfc-editor.org/rfc/rfc2812">Internet Relay Chat: Client Protocol</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://modern.ircdocs.horse/">Modern IRC Client Protocol</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://medium.com/@afatir.ahmedfatir/small-irc-server-ft-irc-42-network-7cee848de6f9#:~:text=Part%203%3A%20Use%20the%20poll()%20function%20to%20check%20if%20an%20event%20has%20occurred.">Small IRC Server [ft_irc 42 network]</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://www.geeksforgeeks.org/socket-programming-cc/">Socket Programming in C/C++</a></li>
+                                    <li> <a style={{color: 'white'}} target="_blank" href="https://www.geeksforgeeks.org/socket-in-computer-network/">Socket in Computer Network</a></li>
                                 </ul>
                             </p> 
                             </div>
