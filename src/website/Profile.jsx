@@ -26,7 +26,7 @@ function AllProfile() {
                             </div>
                         </div>
             <div className="mode lineUp"><p className="btn">ABOUT ME</p></div>
-            <div className="mode font-bold text-2xl lineDown"><h2>MOST POPULAR PROJECTS</h2></div>
+            <div className="mode font-bold text-2xl lineDown"><h2>PROJECTS</h2></div>
             </div>
         </>
     )
