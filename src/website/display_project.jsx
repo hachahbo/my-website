@@ -7,11 +7,16 @@ function DisProjects({project, handleButtonClickResume, handleButtonClick}) {
     let i = 0;
     return (
         <>
-                <div className="project lineDown" key={project.id}>
+                <div className="project w-[400px] lineDown inline-block m-3" key={project.id}>
                     <div className="infos">
-                        <div ><p className="counter">#0{project.counter}</p></div>
-                        <div><h2 className="heads-project ">{project.projectName}</h2></div>
+                        <div ><p className="counter w-10">#0{project.counter}</p></div>
+                        <div><h2 className="heads-project font-bold ">{project.projectName}</h2></div>
                         <div><p className="so-heads-project">{project.date}</p></div>
+                        <div className=" m-5 h-9 px-2">
+                            <div className="h-full flex items-center">
+                                <img className="w-8" src={project.icon} alt="" />
+                            </div>
+                        </div>
                         {/* <div>
                             {project.icons.map((icon) =>(
 

@@ -52,27 +52,31 @@ function Portfolio() {
                     </div>
                 </div>
                 {ShowHome == '1' &&
-                    <div id="home" className="main">
-                            <AllProfile/>
-                            <RendringProjects projects={projects} handleButtonClickResume={handleButtonClickResume}
-                                      handleButtonClick={handleButtonClick} />
+                    <div>
+                        <div id="home" className="main">
+                                <AllProfile/>
+                        </div>
+                    <div>
+                        <RendringProjects projects={projects} handleButtonClickResume={handleButtonClickResume}
+                                handleButtonClick={handleButtonClick} />
+                    </div>
+
                     </div>
                 }
                 {ShowHome == '2' &&
-                    <div id="home" className="main">
-                        <div className="center-resume">
+                        <div className=" h-[100vh] flex flex-col justify-center items-center">
+
                             <CardInfo project={project}/>
-                            <div className="Button-Choice">
-                                <div  className="trace lineDown" id="clickButton"> <h4 class=" btn" onClick={() => handleButtonClick(project)}>MORE</h4></div>
-                                <div className="trace  lineDown"> <h4 class="btn" onClick={handleButtonClick_true}>BACK</h4></div>
+                            <div className="Button-Choice ">
+                                <div  className="cursor-pointer lineDown" id="clickButton"> <h4 class=" btn" onClick={() => handleButtonClick(project)}>MORE</h4></div>
+                                <div className="cursor-pointer trace  lineDown"> <h4 class="btn" onClick={handleButtonClick_true}>BACK</h4></div>
                              </div>
                         </div>
-                    </div>
                 }
                 {ShowHome == '3' &&
-                    <div className="main with-back">
+                    <div className=" with-back h-[100vh] flex justify-center items-center">
                         <InfofAboutProject project={project}/>
-                        <div className="back-button  lineDown"> <h4 class="back-button-1 btn" onClick={handleButtonClick_true}>BACK</h4></div>
+                        <div className=" h-[800px] px-5   lineDown"> <h4 class="cursor-pointer w-20 btn" onClick={handleButtonClick_true}>BACK</h4></div>
                     </div>
                 }
         </>)}

@@ -13,6 +13,7 @@ import MnishellProject from "./projects/Minishell";
 import FT_irc from "./projects/ft_irc";
 // import MnishellProject from "./projects/Minishell";
 import InceptionCard from "./Cards/inception_Card";
+import Cub3D from "./projects/Cub3D";
 function infofAboutProject({project}) {
     return (
         <>
@@ -23,6 +24,7 @@ function infofAboutProject({project}) {
                 {project == 'INCEPTION' && <IceptionProject/>}
                 {project == 'Minishell' && <MnishellProject/>}
                 {project == 'FT_IRC' && <FT_irc/>}
+                {project == 'Cub3D' && <Cub3D/>}
             </div>
             </div>
         </>

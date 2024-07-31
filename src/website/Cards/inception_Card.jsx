@@ -12,15 +12,15 @@ function InceptionCard() {
             <div className="Card-div lineUp">
                 <div>
                 <div className="infos">
-                        <div><h2 className="heads-project ">INCEPTION</h2></div>
+                        <div><h2 className="heads-project font-bold ">INCEPTION</h2></div>
                         <div><p className="overview-decription">This project is a tutorial on system administration using 
                             Docker. It involves creating a personal virtual machine 
                             and virtualizing several Docker images...</p></div>
                         <div><h2 className="heads-project " style={{fontSize : '20px'}}>Skills :</h2></div>
-                        <ul style={{marginRight : '35px'}}>
-                                    <li>learn how to set up and manage Docker containers within a virtualized environment.</li>
-                                    <li>gain skills in configuring and securing services like NGINX, MariaDB, and WordPress.</li>
-                                    <li>understanding networking and service interaction in a containerized setup.</li>
+                        <ul className="px-7">
+                                    <li>- learn how to set up and manage Docker containers within a virtualized environment.</li>
+                                    <li>- gain skills in configuring and securing services like NGINX, MariaDB, and WordPress.</li>
+                                    <li>- understanding networking and service interaction in a containerized setup.</li>
                         </ul>
 
                     </div>

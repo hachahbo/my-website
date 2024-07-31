@@ -20,12 +20,17 @@ function RendringProjects({projects, handleButtonClickResume,handleButtonClick})
     };
     
     return (
-        <div className="projects">
-            {projects.map((project) => (
-                    <DisProjects  key={project.id}  project={project} handleButtonClickResume={handleButtonClickResume} handleButtonClick={handleButtonClick} />
-            ))}
-                {/* <DisProjects key={projects.id} project={projects} handleButtonClick={handleButtonClick}/> */}
-        </div>)
+        <div className="flex  justify-center items-center ">
+            <div className="  my-5 grid grid-cols-3">
+                    {projects.map((project) => (
+                        <div className="col-span-1 ">
+                            <DisProjects  key={project.id}  project={project} handleButtonClickResume={handleButtonClickResume} handleButtonClick={handleButtonClick} />
+                        </div>
+                    ))}
+            </div>
+
+        </div>
+    )
 }
 
 export default RendringProjects
